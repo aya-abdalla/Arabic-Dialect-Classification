@@ -18,11 +18,12 @@ In this Project Two Main Models Have been Used To deffrentiate between Arabic Di
  6-eliminate_single_char_words 
  
  
-# The First Model is classical one which is the  Multinomial Naive Bayes Model , 
-The multinomial Naive Bayes classifier is suitable for Text classification and easy in implementation, in this Classification the model only depends on the words that forms each sentence, it does't take into account the similarity between words
+# the  Multinomial Naive Bayes Model , 
+The First Model is classical one , it is suitable for Text classification and easy in implementation, in this Classification the model only depends on the words that forms each sentence, it does't take into account the similarity between words
 
 
-# the second used Model is LSTM model Classification ,
+# LSTM model Classification (Deep Learning Model)
+
 to get mush good results , the data is transformed first to word2vec representation so we could
     1-have insights about such words contexts,
     2-know which words are close to each other (the distance between two words) 
